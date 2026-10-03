@@ -55,38 +55,12 @@ The analysis utilizes flight performance data including:
 
 ##  Technologies & Tools
 
-- **Python 3.x** - Data analysis and processing
-- **Pandas** - Data manipulation and analysis
-- **NumPy** - Numerical computations
-- **Matplotlib** - Data visualization
-- **Seaborn** - Statistical data visualization
-- **Jupyter Notebook** - Interactive analysis environment
-
-##  Project Structure
-
-```
-Flight-Delay-Analysis/
-├── Flight Delay Analysis.ipynb    # Main analysis notebook
-├── README.md                       # Project documentation
-└── [datasets/]                     # Data files (if included)
-```
-
-##  Getting Started
-
-### Prerequisites
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-```
-
-### Running the Analysis
-1. Clone the repository
-2. Install required dependencies
-3. Open `Flight Delay Analysis.ipynb` in Jupyter Notebook
-4. Run all cells to generate analysis and visualizations
-
-```bash
-jupyter notebook "Flight Delay Analysis.ipynb"
-```
+- **Python 3.x** for data analysis and processing
+- **Pandas** for data manipulation and analysis
+- **NumPy** for numerical computations
+- **Matplotlib** for data visualization
+- **Seaborn** for statistical data visualization
+- **Jupyter Notebook** which is the interactive analysis environment
 
 ##  Visualizations
 
@@ -104,16 +78,16 @@ The analysis includes multiple visualizations:
 - Consider scheduling adjustments for peak delay periods
 - Monitor aircraft type performance in operations planning
 
-##  Notes
+##  Screenshots
 
-- Analysis focuses on actual flight performance data
-- Results may vary based on data time period and coverage
-- Recommendations should be validated with additional domain expertise
 
-##  Contact
 
-For questions or contributions regarding this analysis, please refer to the repository.
 
----
+<img width="700" height="700" alt="{AE8E2131-95BA-4FE1-9397-98E68A305056}" src="https://github.com/user-attachments/assets/1a754572-b0e6-4820-8ec3-e760321c8ee0" />
 
-**Last Updated**: 2026
+
+
+
+<img width="700" height="700" alt="{D4AF866E-2FB3-474B-AD98-A9D06F3EB796}" src="https://github.com/user-attachments/assets/f4f76c5d-3ae0-4550-9198-10d7ffcf5360" />
+
+
