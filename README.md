@@ -48,6 +48,7 @@ These findings are visually supported by histograms, time-series plots, boxplots
 
 <img width="2078" height="1022" alt="{0FA032D2-43B6-4D63-BBA8-453B59D4AB3C}" src="https://github.com/user-attachments/assets/a458c4e2-f47e-4251-ab3b-80e1c850509b" />
 
+<img width="1142" height="664" alt="{E5B649C2-1A4B-43C6-8F1C-4B231F297DE0}" src="https://github.com/user-attachments/assets/971cadd9-7007-414e-b8ac-f8da2cc68b37" />
 
 ## Tools used
 - Python
