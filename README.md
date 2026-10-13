@@ -1,9 +1,9 @@
 # Flight Delay Analysis
 
-This project is a practical data analysis case study focused on understanding why flights are delayed and which operational patterns are most responsible. I used Python to clean, explore, and visualize airline performance data, then translated the findings into clear insights that matter to both passengers and airline operations teams. The full analysis is documented in the notebook Flight Delay Analysis.ipynb.
+This project is a practical data analysis case study focused on understanding why flights are delayed and which operational patterns are most responsible. I used Python to clean, explore, and visualize the data to turn a raw flight dataset into clear, actionable insights.
 
 ## Why this project matters
-Flight delays have a real impact on travelers, airline operations, and the customer experience. This project allowed me to work with a realistic operational dataset and ask questions that matter in the real world: when do delays happen most often, which airports and airlines are affected, and what patterns are driving the disruption?
+Flight delays have a real impact on travelers, airline operations, and the customer experience. This project allowed me to work with a realistic operational dataset and ask questions that matter in the real world: where do delays cluster, which airlines are most affected, and how do network patterns influence reliability.
 
 This was a great opportunity to demonstrate my ability to move from raw data to actionable business insight using a reproducible workflow.
 
@@ -46,9 +46,13 @@ These findings are visually supported by histograms, time-series plots, boxplots
 - Boxplots for outlier detection
 - Correlation analysis between key variables
 
-<img width="2078" height="1022" alt="{0FA032D2-43B6-4D63-BBA8-453B59D4AB3C}" src="https://github.com/user-attachments/assets/a458c4e2-f47e-4251-ab3b-80e1c850509b" />
+## Key Visualizations
 
-<img width="1142" height="664" alt="{E5B649C2-1A4B-43C6-8F1C-4B231F297DE0}" src="https://github.com/user-attachments/assets/971cadd9-7007-414e-b8ac-f8da2cc68b37" />
+### Delay distribution and operational trend overview
+<img width="1000" height="600" alt="Flight delay distribution and operational trend overview" src="https://github.com/user-attachments/assets/a458c4e2-f47e-4251-ab3b-80e1c850509b" />
+
+### Airport and airline delay comparison
+<img width="900" height="520" alt="Airport and airline delay comparison" src="https://github.com/user-attachments/assets/971cadd9-7007-414e-b8ac-f8da2cc68b37" />
 
 ## Tools used
 - Python
@@ -77,7 +81,7 @@ pip install pandas numpy matplotlib seaborn
 - Reproducible notebook-based analysis
 
 ## Business value and takeaway
-This project demonstrates my ability to turn raw transportation data into meaningful insights that can support better operational planning. The analysis is not just descriptive—it identifies where delays are most likely, which segments are most affected, and which patterns should be investigated further.
+This project demonstrates my ability to turn raw transportation data into meaningful insights that can support better operational planning. The analysis is not just descriptive—it identifies where delays are concentrated and which operational factors matter most, which makes it useful for planning and operational improvement.
 
 ## Recommended next steps
 - Add weather and airport congestion data to dig deeper into root causes
@@ -85,5 +89,4 @@ This project demonstrates my ability to turn raw transportation data into meanin
 - Explore how specific airports and airlines respond differently under peak conditions
 
 ## Portfolio note
-This project reflects my interest in using data to solve real-world operational problems and communicate findings clearly. It shows an analytical mindset grounded in practical questions, structured methods, and strong data storytelling.
-
+This project reflects my interest in using data to solve real-world operational problems and communicate findings clearly. It shows an analytical mindset grounded in practical questions, structured analysis, and business-oriented insights.
