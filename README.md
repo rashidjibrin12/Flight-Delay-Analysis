@@ -1,95 +1,89 @@
-# Flight Delay Analysis
+# Flight Delay Analysis — Portfolio Project
 
-##  Summary
+## TL;DR
+This project is a practical data analysis case study focused on understanding why flights are delayed and which operational patterns are most responsible. I used Python to clean, explore, and visualize airline performance data, then translated the findings into clear insights that matter to both passengers and airline operations teams. The full analysis is documented in the notebook `Flight Delay Analysis.ipynb`.
 
-This project performs a comprehensive analysis of flight delay patterns and factors affecting on-time performance. Using data analysis and visualization techniques, we explore the relationships between various flight characteristics and delays to identify key drivers of flight disruptions.
+## Why this project matters
+Flight delays have a real impact on travelers, airline operations, and the customer experience. This project allowed me to work with a realistic operational dataset and ask questions that matter in the real world: when do delays happen most often, which airports and airlines are affected, and what patterns are driving the disruption?
 
-##  Project Objectives
+This was a great opportunity to demonstrate my ability to move from raw data to actionable business insight using a reproducible workflow.
 
-- Analyze flight delay patterns across different dimensions (airlines, airports, time periods)
-- Identify key factors contributing to flight delays
-- Provide actionable insights for airlines and airport operations
-- Visualize delay trends and distributions to support decision-making
+## What I did
+- Cleaned and validated the flight dataset
+- Explored delay patterns across time, airport, airline, and route
+- Engineered useful features such as time-of-day and day-of-week indicators
+- Used summary statistics and visual analysis to uncover trends and outliers
+- Built clear visualizations to communicate findings effectively
 
-##  Dataset Overview
+## Dataset and approach
+The analysis uses flight operational data containing information such as:
+- airline and flight identifiers
+- origin and destination airports
+- scheduled and actual times
+- delay metrics
+- aircraft and distance information
+- temporal information such as day and time of flight
 
-The analysis utilizes flight performance data including:
-- **Flight Information**: Airline, flight number, origin, destination
-- **Scheduling Data**: Scheduled departure/arrival times, actual times
-- **Delay Metrics**: Departure delays, arrival delays, delays by category
-- **Operational Data**: Aircraft type, distance, day of week, time of day
+The notebook follows a standard data-analysis workflow:
+1. Data cleaning and validation
+2. Feature extraction and transformation
+3. Exploratory data analysis
+4. Visualization of delay trends
+5. Interpretation of findings and recommendations
 
-##  Key Analysis Areas
+## Key findings
+- Delay risk is concentrated during certain hours of the day and days of the week, suggesting that peak travel periods create operational strain.
+- Some airports and routes experience disproportionately high delay rates, which points to localized bottlenecks or congestion issues.
+- Airlines vary noticeably in punctuality, meaning operational efficiency and scheduling choices matter significantly.
+- Flight distance and aircraft type are associated with different delay behavior, highlighting how aircraft and route characteristics influence reliability.
+- Departure delays are strongly linked to arrival delays, reinforcing the idea that early disruptions often cascade through the rest of the network.
 
-### 1. **Delay Distribution & Patterns**
-   - Arrival and departure delay distributions
-   - Delay frequency across different time windows
-   - Outlier identification and analysis
+These findings are visually supported by histograms, time-series plots, boxplots, and correlation heatmaps in the notebook.
 
-### 2. **Temporal Trends**
-   - Delays by day of week
-   - Delays by time of day
-   - Seasonal variations in flight performance
+## Visualizations included
+- Delay distribution plots
+- Time-based trend charts
+- Airport and airline comparisons
+- Boxplots for outlier detection
+- Correlation analysis between key variables
 
-### 3. **Airline Performance**
-   - Comparative delay metrics across carriers
-   - On-time performance rankings
-   - Reliability patterns
+## Tools used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-### 4. **Route & Airport Analysis**
-   - High-delay airports and routes
-   - Origin-destination pair performance
-   - Geographical patterns in delays
+## How to run the project
+1. Open `Flight Delay Analysis.ipynb` in Jupyter Notebook or Google Colab.
+2. Install the required libraries if needed:
 
-### 5. **Correlations & Relationships**
-   - Relationship between departure and arrival delays
-   - Impact of flight distance on delays
-   - Aircraft type influence on punctuality
+```bash
+pip install pandas numpy matplotlib seaborn
+```
 
-##  Key Findings
+3. Run the notebook from top to bottom to reproduce the analysis.
 
-- Delays show distinct patterns by time of day and day of week
-- Certain airports and airlines demonstrate consistently better on-time performance
-- Flight distance and aircraft type are correlated with delay patterns
-- Weather and operational factors create predictable delay trends
+## Skills demonstrated
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- Time-series and trend analysis
+- Data visualization and storytelling
+- Operational insight generation from real-world datasets
+- Reproducible notebook-based analysis
 
-##  Technologies & Tools
+## Business value and takeaway
+This project demonstrates my ability to turn raw transportation data into meaningful insights that can support better operational planning. The analysis is not just descriptive—it identifies where delays are most likely, which segments are most affected, and which patterns should be investigated further.
 
-- **Python 3.x** for data analysis and processing
-- **Pandas** for data manipulation and analysis
-- **NumPy** for numerical computations
-- **Matplotlib** for data visualization
-- **Seaborn** for statistical data visualization
-- **Jupyter Notebook** which is the interactive analysis environment
+## Recommended next steps
+- Add weather and airport congestion data to dig deeper into root causes
+- Build a delay-risk prediction model for flights before departure
+- Explore how specific airports and airlines respond differently under peak conditions
 
-##  Visualizations
+## Portfolio note
+This project reflects my interest in using data to solve real-world operational problems and communicate findings clearly. It shows an analytical mindset grounded in practical questions, structured methods, and strong data storytelling.
 
-The analysis includes multiple visualizations:
-- Distribution plots for delay metrics
-- Time-series charts showing delay trends
-- Comparative bar charts across airlines and airports
-- Correlation heatmaps
-- Box plots for outlier detection
+---
 
-##  Insights & Recommendations
-
-- Prioritize operational improvements at high-delay airports
-- Investigate airline-specific factors contributing to delays
-- Consider scheduling adjustments for peak delay periods
-- Monitor aircraft type performance in operations planning
-
-##  Screenshots
-
-
-
-
-<img width="800" height="500" alt="{D85168B0-A55C-4DB8-9F95-E15BF186E7B0}" src="https://github.com/user-attachments/assets/8a02ed6c-480e-485e-b97f-a17640159bd9" />
-
-
-
-
-<img width="800" height="500" alt="{00AB1A85-2F3E-447A-9E0B-C875D307F1C6}" src="https://github.com/user-attachments/assets/7695a245-1eb8-4411-b2af-fb011190179d" />
-
-
-
-
+Updated to reflect the findings from the flight delay analysis notebook and written in a more portfolio-friendly, human style.
