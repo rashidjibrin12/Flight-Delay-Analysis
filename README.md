@@ -1,4 +1,4 @@
-# Flight Delay Analysis — Portfolio Project
+# Flight Delay Analysis
 
 This project is a practical data analysis case study focused on understanding why flights are delayed and which operational patterns are most responsible. I used Python to clean, explore, and visualize airline performance data, then translated the findings into clear insights that matter to both passengers and airline operations teams. The full analysis is documented in the notebook Flight Delay Analysis.ipynb.
 
