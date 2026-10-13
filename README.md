@@ -46,6 +46,9 @@ These findings are visually supported by histograms, time-series plots, boxplots
 - Boxplots for outlier detection
 - Correlation analysis between key variables
 
+<img width="2078" height="1022" alt="{0FA032D2-43B6-4D63-BBA8-453B59D4AB3C}" src="https://github.com/user-attachments/assets/a458c4e2-f47e-4251-ab3b-80e1c850509b" />
+
+
 ## Tools used
 - Python
 - Pandas
