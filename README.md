@@ -1,7 +1,6 @@
 # Flight Delay Analysis — Portfolio Project
 
-## TL;DR
-This project is a practical data analysis case study focused on understanding why flights are delayed and which operational patterns are most responsible. I used Python to clean, explore, and visualize airline performance data, then translated the findings into clear insights that matter to both passengers and airline operations teams. The full analysis is documented in the notebook `Flight Delay Analysis.ipynb`.
+This project is a practical data analysis case study focused on understanding why flights are delayed and which operational patterns are most responsible. I used Python to clean, explore, and visualize airline performance data, then translated the findings into clear insights that matter to both passengers and airline operations teams. The full analysis is documented in the notebook Flight Delay Analysis.ipynb.
 
 ## Why this project matters
 Flight delays have a real impact on travelers, airline operations, and the customer experience. This project allowed me to work with a realistic operational dataset and ask questions that matter in the real world: when do delays happen most often, which airports and airlines are affected, and what patterns are driving the disruption?
@@ -17,12 +16,12 @@ This was a great opportunity to demonstrate my ability to move from raw data to 
 
 ## Dataset and approach
 The analysis uses flight operational data containing information such as:
-- airline and flight identifiers
-- origin and destination airports
-- scheduled and actual times
-- delay metrics
-- aircraft and distance information
-- temporal information such as day and time of flight
+- Airline and flight identifiers
+- Origin and destination airports
+- Scheduled and actual times
+- Delay metrics
+- Aircraft and distance information
+- Temporal information such as day and time of flight
 
 The notebook follows a standard data-analysis workflow:
 1. Data cleaning and validation
@@ -84,6 +83,3 @@ This project demonstrates my ability to turn raw transportation data into meanin
 ## Portfolio note
 This project reflects my interest in using data to solve real-world operational problems and communicate findings clearly. It shows an analytical mindset grounded in practical questions, structured methods, and strong data storytelling.
 
----
-
-Updated to reflect the findings from the flight delay analysis notebook and written in a more portfolio-friendly, human style.
