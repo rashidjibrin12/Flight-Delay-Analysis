@@ -81,7 +81,7 @@ pip install pandas numpy matplotlib seaborn
 - Reproducible notebook-based analysis
 
 ## Business value and takeaway
-This project demonstrates my ability to turn raw transportation data into meaningful insights that can support better operational planning. The analysis is not just descriptive—it identifies where delays are concentrated and which operational factors matter most, which makes it useful for planning and operational improvement.
+This project demonstrates my ability to turn raw transportation data into meaningful insights that can support better operational planning. The analysis is not just descriptive; it identifies where delays are concentrated and which operational factors matter most, which makes it useful for planning and operational improvement.
 
 ## Recommended next steps
 - Add weather and airport congestion data to dig deeper into root causes
